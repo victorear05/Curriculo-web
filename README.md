@@ -1,2 +1,2 @@
-# Orc-estra
-Repositório pra colocar os projetinhos que eu desenvolver no PT da Orc'estra
+# HTML/CSS
+Repositório pra colocar os projetinhos que eu desenvolver em HTML e CSS
