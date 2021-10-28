@@ -2,82 +2,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(9, 73, 0);
     font-family: 'Roboto Mono', monospace;
-}
-
-#menu_nav{
-    position: fixed;
-    max-width: 130px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: chartreuse;
-    width: max-content;
-}
-
-#menu_nav ul{
-    margin-top: 0;
-    margin-bottom: 0;
-    list-style-type: none;
-    padding: 0px;
-}
-
-#menu_nav ul li a{
-    background-color: chartreuse;  
     font-weight: bold;
-    color: black;
-    display: block;
-    text-decoration: none;
-    transition: .4s;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 10px;
 }
 
-#menu_nav ul li a:hover{
-    background-color: rgb(5, 85, 2);
+#menu_de_cima{
+    list-style: none;
+    padding: 0.2vw;
+    margin-left: 70vw;
+}
+
+#menu_de_cima li{
+    display: inline;
+}
+
+#menu_de_cima li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.8vw;
 }
 
 h1{
     font-weight: bold;
     font-size: 50pt;
     font-family: 'Bungee', cursive;
-    margin-top: -15px;
+    text-align: center;
 }
 
-#apresentacao{
-    display: flex;
-    max-width: 1px;
+#apresentacao {
+    height: 50vw;
+    width: 99vw;
+}
+
+#imagem{
+    float: left;
+}
+
+.coluna{
+    margin: auto;
+    column-count: 2;
+}
+
+#sobre_mim div{
+    margin-top: 1vw;
 }
 
 
-
-
+#formacao{
+    background-color: white;
+    height: 50vw;
+    width: 99vw;
+}
 
 /*
-#menu_de_cima{
-    
+#experiencia{
+    height: 50vw;
+    width: 100vw;
 }
 
-#menu_de_cima ul{
-    list-style: none;
-    padding: 0;
-    background-color: #1BEB1C;
-}
-
-#menu_de_cima ul li a{
-    color: black;
-    padding: 15px;
-    display: inline-block;
-    text-decoration: none;
-    transition: all .4s;
-    font-weight: bold;
-}
-
-
-#menu_de_cima ul li a:hover{
-    background-color:#152F52;
+#contato{
+    height: 50vw;
+    width: 100vw;
 }
 */
