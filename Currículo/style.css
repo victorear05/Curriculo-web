@@ -47,30 +47,55 @@ h1{
     float: left;
 }
 
-.coluna{
-    margin: auto;
-    column-count: 2;
-}
-
 #sobre_mim div{
     margin-top: 1vw;
+    display: inline-block;
 }
-
 
 #formacao{
     background-color: white;
-    height: 50vw;
+    height: 53.7vw;
     width: 99vw;
 }
 
-/*
+#logo_unb{
+    float: left;
+    height: 10vw;
+}
+
+#logo_orcestra{
+    float: left;
+    padding-left: 1vw;
+}
+
 #experiencia{
-    height: 50vw;
-    width: 100vw;
+    background-color:black;
+    height: 54.5vw;
+    width: 99vw;
+}
+
+#experiencia h1{
+    color: white;
+}
+
+#experiencia p{
+    color: white;
+    font-size: 2vw;
+}
+
+
+#conteudo_experiencia{
+    margin-top: 7vw;
 }
 
 #contato{
-    height: 50vw;
-    width: 100vw;
+    background-color: red;
+    height: 53.2vw;
+    width: 99vw;
 }
-*/
+
+#conteudo_contato{
+    margin-left: 15%;
+    margin-top: 7%;
+    width: 25%;
+}
