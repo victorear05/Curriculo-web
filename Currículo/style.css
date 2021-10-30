@@ -1,19 +1,20 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&display=swap');
 
 /*Gerais*/
 
 * {
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
+    font-weight: bold;
 }
 
+
 body{
-/*Definir fonte do body*/
-    background-color: black;
-    margin: 0;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
+
 
 h1{
     font-family: 'Bungee', cursive;
@@ -21,10 +22,6 @@ h1{
     font-weight: bold;
     text-align: center;
     padding-top: 1vh;
-}
-
-#botao_proxima p{
-    text-align: center;
 }
 /*-----------------*/
 
@@ -81,9 +78,6 @@ body div{
     padding-left: 1vw;
 }
 
-#habilidades ul{
-}
-
 #habilidades ul li{
     display: inline;
     padding-left: 1vw;
@@ -99,9 +93,15 @@ body div{
     padding: 0;
 }
 
-#botao_proxima p{
+#botao_proxima_1{
     text-align: center;
-    padding: vh;
+    padding: 27vh;
+
+}
+
+#botao_proxima_1 a img{
+    height: 5vw;
+    width: 5vw;
 }
 /*--------------*/
 
@@ -113,19 +113,28 @@ body div{
 }
 
 #logo_unb{
+    padding: 8vh;
     width: 10vw;
     height: 10vw;
     float: left;
 }
 
 #conteudo_formacao div{
-    padding: 1vh;;
+    padding: 3vh;
+}
+
+
+
+
+#botao_proxima_2{
+    text-align: center;
+    padding: 67vh;
 
 }
 
-#botao_proxima p{
-    text-align: center;
-    padding: 65vh;
+#botao_proxima_2 a img{
+    height: 5vw;
+    width: 5vw;
 }
 
 /*--------------*/
@@ -137,23 +146,43 @@ body div{
     width: 99vw;
 }
 
-#botao_proxima p{
+#logo_orcestra{
+    float: left;
+}
+
+#botao_proxima_3{
     text-align: center;
-    padding: 65vh;
+    padding: 67vh;
+    
+}
+
+#botao_proxima_3 a img{
+    height: 5vw;
+    width: 5vw;
 }
 
 /*--------------*/
 
 /*Quarta seção*/
 #contato{
-    background: white;
+    background: green;
     height: 100vh;
     width: 99vw;
 }
 
-#botao_proxima p{
+#botao_proxima_4{
     text-align: center;
-    padding: 65vh;
+    padding: 67vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border:none;
+}
+
+#botao_proxima_4 a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /*--------------*/
