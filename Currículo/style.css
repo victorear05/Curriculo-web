@@ -96,7 +96,6 @@ body div{
 #botao_proxima_1{
     text-align: center;
     padding: 27vh;
-
 }
 
 #botao_proxima_1 a img{
@@ -113,18 +112,17 @@ body div{
 }
 
 #logo_unb{
-    padding: 8vh;
-    width: 10vw;
-    height: 10vw;
+    padding-top: 8vh;
+    padding-left: 2vh;
+    width: 15vw;
+    height: 15vw;
     float: left;
 }
 
 #conteudo_formacao div{
-    padding: 3vh;
+    padding: 9vh;
+    font-size: 4vh;
 }
-
-
-
 
 #botao_proxima_2{
     text-align: center;
@@ -150,10 +148,14 @@ body div{
     float: left;
 }
 
+#conteudo_experiencia div{
+    padding: 9vh;
+    font-size: 4vh;
+}
+
 #botao_proxima_3{
     text-align: center;
-    padding: 67vh;
-    
+    padding: 67vh; 
 }
 
 #botao_proxima_3 a img{
