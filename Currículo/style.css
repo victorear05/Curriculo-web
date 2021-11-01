@@ -10,11 +10,14 @@
     font-weight: bold;
 }
 
-
 body{
     font-family: 'Encode Sans Condensed', sans-serif;
+    background: rgb(7, 0, 70);
 }
 
+p{
+    color: white;
+}
 
 h1{
     font-family: 'Bungee', cursive;
@@ -22,7 +25,9 @@ h1{
     font-weight: bold;
     text-align: center;
     padding-top: 1vh;
+    color: white;
 }
+
 /*-----------------*/
 
 /*Menu de cima*/
@@ -42,15 +47,18 @@ h1{
     color:white;
     display: inline-block;
     text-decoration: none;
-    padding: 0.8vw;
+    padding: 1vw;
     font-weight: bold;
+    font-size: 1vw;
+    padding-left: 2vw;
 }
 
 /*-----------------*/
 
 /*Primeira seção*/
+
 #sobre_mim{
-    background-color: green;
+    background: rgb(7, 0, 70);
     background-position: center;
     height: 100.5vh;
     width: 99vw;
@@ -76,6 +84,7 @@ body div{
 #habilidades h2{
     padding-top: 30vh;
     padding-left: 1vw;
+    color: white;
 }
 
 #habilidades ul li{
@@ -102,11 +111,13 @@ body div{
     height: 5vw;
     width: 5vw;
 }
+
 /*--------------*/
 
 /*Segunda seção*/
+
 #formacao{
-    background: blueviolet;
+    background: rgb(7, 0, 70);
     height: 100vh;
     width: 99vw;
 }
@@ -126,7 +137,7 @@ body div{
 
 #botao_proxima_2{
     text-align: center;
-    padding: 67vh;
+    padding: 41vh;
 
 }
 
@@ -138,14 +149,17 @@ body div{
 /*--------------*/
 
 /*Terceira seção*/
+
 #experiencia{
-    background: red;
+    background: rgb(7, 0, 70);
     height: 100vh;
     width: 99vw;
 }
 
 #logo_orcestra{
     float: left;
+    padding-top: 8vh;
+    padding-left: 2vh;
 }
 
 #conteudo_experiencia div{
@@ -155,7 +169,7 @@ body div{
 
 #botao_proxima_3{
     text-align: center;
-    padding: 67vh; 
+    padding: 42vh; 
 }
 
 #botao_proxima_3 a img{
@@ -166,25 +180,51 @@ body div{
 /*--------------*/
 
 /*Quarta seção*/
+
 #contato{
-    background: green;
+    background: rgb(7, 0, 70);
     height: 100vh;
     width: 99vw;
+    color: white;
+    text-align: center;
+}
+
+#logos li{
+    display: inline-block;
+}
+
+#conteudo_contato{
+    padding-top: 10vh;
+}
+
+#logo_linkedin{
+    height: 3.535vh;
+    width: 4.00vh;
+}
+
+#logo_github{
+    height: 4vh;
+    width: 4vh;
+}
+
+#logo_email{
+    height: 4vh;
+    width: 4vh;
+    float: left;
+}
+
+#p_email{
+    padding-top: 1vh;
 }
 
 #botao_proxima_4{
     text-align: center;
-    padding: 67vh;
-    box-sizing: border-box;
-    margin: 0 auto;
-    border:none;
+    padding-top: 50vh;
 }
 
 #botao_proxima_4 a{
-    list-style: none;
-    color: black;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 /*--------------*/
