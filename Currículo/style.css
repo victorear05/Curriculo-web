@@ -81,25 +81,23 @@ body div{
     padding-left: 1vw;
 }
 
+#tabela_habilidades{
+    float: left;
+    padding-left: 1vw;
+    color: white;
+    text-align: center;
+    padding-top:0.5vw;
+    font-size: 0.8vw;
+}
+
+#tabela_habilidades thead tr{
+    font-size: 1vw;
+}
+
 #habilidades h2{
     padding-top: 30vh;
     padding-left: 1vw;
     color: white;
-}
-
-#habilidades ul li{
-    display: inline;
-    padding-left: 1vw;
-}
-
-#habilidades ul li img{
-    display: inline-block;
-    width: 2.25vw;
-    height: 4vh;
-}
-
-#habilidades ul{
-    padding: 0;
 }
 
 #botao_proxima_1{
@@ -163,7 +161,7 @@ body div{
 }
 
 #conteudo_experiencia div{
-    padding: 9vh;
+    padding: 8vh;
     font-size: 4vh;
 }
 
@@ -197,6 +195,11 @@ body div{
     padding-top: 10vh;
 }
 
+#gostaria{
+    padding-top: 5vh;
+    font-size: 4vh;
+}
+
 #logo_linkedin{
     height: 3.535vh;
     width: 4.00vh;
@@ -219,12 +222,36 @@ body div{
 
 #botao_proxima_4{
     text-align: center;
-    padding-top: 50vh;
+    padding-top: 40vh;
+    font-size: 2vh;
 }
 
 #botao_proxima_4 a{
     color: white;
     text-decoration: none;
+}
+
+#p_feedback{
+    padding-top: 6vh;
+}
+
+#ultima_parte{
+    display: inline;
+}
+
+#ultima_parte li{
+    display: inline-block;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 5vw;
+}
+
+#ultima_parte :first-child{
+    float: left;
+}
+
+#ultima_parte :last-child{
+    float: right;
 }
 
 /*--------------*/
