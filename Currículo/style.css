@@ -81,23 +81,43 @@ body div{
     padding-left: 1vw;
 }
 
-#tabela_habilidades{
-    float: left;
-    padding-left: 1vw;
+#tabela_habilidades_especificas{
     color: white;
+    float: left;
     text-align: center;
     padding-top:0.5vw;
-    font-size: 0.8vw;
+    margin-left: -18.9vw;
+    border-collapse: separate;
+    border-spacing: 20vw 0;
 }
 
-#tabela_habilidades thead tr{
-    font-size: 1vw;
+#tabela_habilidades_especificas thead tr th{
+    font-size: 1.5vw;
+    font-weight: bold;
 }
+
+#tabela_habilidades_especificas tbody tr td{
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+/*
+#tabela_habilidades_comportamentais{
+    color: white;
+    padding-left: 1vw;
+    list-style: none;
+}
+
+#h2_hab_comp{
+    margin-top: -13vh;
+}
+*/
 
 #habilidades h2{
     padding-top: 30vh;
     padding-left: 1vw;
     color: white;
+    font-size: 1.8vw;
 }
 
 #botao_proxima_1{
