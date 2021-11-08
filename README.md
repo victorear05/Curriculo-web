@@ -1,2 +1,2 @@
-# Currículo web  
-Currículo feito com HTML5 e CSS3.
+# Currículo web
+Versão um pouco melhor e responsiva da primeira versão (em construção).
